@@ -1,0 +1,648 @@
+[
+    {
+        "key": "group_5ddea841ef683",
+        "title": "Künstler",
+        "fields": [
+            {
+                "key": "field_5ddea9aee29be",
+                "label": "Info",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Der \"Titel\" wird als \"Nachname, Vorname\" eingegeben.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5de3b5243f006",
+                "label": "Nachname",
+                "name": "kl_nachname",
+                "type": "text",
+                "instructions": "Nachname des Künstlers",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ddea88e2b8d2",
+                "label": "Vorname",
+                "name": "kl_vorname",
+                "type": "text",
+                "instructions": "Vorname des Künstlers",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ddea8b72b8d3",
+                "label": "Biographie",
+                "name": "kl_biographie",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_5ddea8db2b8d4",
+                "label": "Website",
+                "name": "kl_website",
+                "type": "url",
+                "instructions": "Website des Künstlers",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "artist"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5ddea921a68f9",
+        "title": "Kunstwerke",
+        "fields": [
+            {
+                "key": "field_5ddea937b8761",
+                "label": "Info",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Das Feld \"Titel\" bitte wie folgt eingeben:\r\nBildname - Künstlername (Nachname, Vorname) - Inventarnummer\r\nBeispiel:  Bei Wehlen - Brendel, Sylvia - 307\/95",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5de3a7439e3ca",
+                "label": "Kunstwerk Name",
+                "name": "kl_kunstwerk_name",
+                "type": "text",
+                "instructions": "Name des Bildes\/Kunstwerk",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5de28f52b7c0e",
+                "label": "Verleihstatus",
+                "name": "kl_verleihstatus",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "verfuegbar": "Verfügbar",
+                    "reserviert": "Reserviert",
+                    "ausgeliehen": "Ausgeliehen"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5de290932cc3f",
+                "label": "Verliehen bis:",
+                "name": "kl_verliehen_bis",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5de28f52b7c0e",
+                            "operator": "==",
+                            "value": "ausgeliehen"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d.m.Y",
+                "return_format": "d.m.Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_5de28e7d7e7bd",
+                "label": "Künstler Daten",
+                "name": "kl_artist_daten",
+                "type": "relationship",
+                "instructions": "Ein angelegter Künstler aus dem Seitenmenü \"Künstler\" kann hier dem Bild\/Kunstwerk zugeordnet werden.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "artist"
+                ],
+                "taxonomy": "",
+                "filters": [
+                    "search"
+                ],
+                "elements": "",
+                "min": "",
+                "max": "",
+                "return_format": "object"
+            },
+            {
+                "key": "field_5de3b8a7ed65e",
+                "label": "Künstler Name für Suche",
+                "name": "kl_kuenstler_name_suche",
+                "type": "taxonomy",
+                "instructions": "Sollte der Künstler noch nicht in der Liste vorhanden sein, muss es durch Klick auf das kleine Pluszeichen hinzugefügt werden. Das ist notwendig, damit er auch in dem Filter für die Bildergalerie erscheint.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "kuenstler",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_5de28ef1b7c0b",
+                "label": "Jahr",
+                "name": "kl_jahr",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5de28f0bb7c0c",
+                "label": "Größe",
+                "name": "kl_groesse",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5de28f2ab7c0d",
+                "label": "Größe mit Rahmen",
+                "name": "kl_rahmen",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5de299a3ffb6a",
+                "label": "Technik-Gruppe",
+                "name": "kl_technik_gruppe",
+                "type": "taxonomy",
+                "instructions": "Sollte die gewünschte Technik noch nicht in der Liste vorhanden sein, muss sie durch Klick auf das kleine Pluszeichen hinzugefügt werden. (Das Plus erscheint beim Mouseover)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "technik",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_5de29a46c14ac",
+                "label": "Genre-Gruppe",
+                "name": "kl_genre_gruppe",
+                "type": "taxonomy",
+                "instructions": "Sollte das gewünschte Genre noch nicht in der Liste vorhanden sein, muss es durch Klick auf das kleine Pluszeichen hinzugefügt werden. (Das Plus erscheint beim Mouseover)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "genre",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_5de3e4ed35fed",
+                "label": "Motiv-Gruppe",
+                "name": "kl_motiv_gruppe",
+                "type": "taxonomy",
+                "instructions": "Sollte das gewünschte Motiv noch nicht in der Liste vorhanden sein, muss es durch Klick auf das kleine Pluszeichen hinzugefügt werden. (Das Plus erscheint beim Mouseover)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "motiv",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_5de291372cc41",
+                "label": "Abbildung",
+                "name": "kl_abbildung",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5de61e07747c9",
+                "label": "Text Bildlizenz",
+                "name": "kl_text_bildlizenz",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "auswahl": "Bitte auswählen",
+                    "vgbild": "© VG Bild-Kunst, Bonn",
+                    "balgalerie": "© Bezirksamt Lichtenberg von Berlin. Foto: Galerie 100",
+                    "bafotograf": "© Bezirksamt Lichtenberg von Berlin. Foto:"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5de61f5f747ca",
+                "label": "Lizenzjahr VG Bildkunst",
+                "name": "kl_lizenzjahr_vg_bildkunst",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5de61e07747c9",
+                            "operator": "==",
+                            "value": "vgbild"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5de62093747cb",
+                "label": "Fotograf VG Bildkunst",
+                "name": "kl_fotograf_vg_bildkunst",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5de61e07747c9",
+                            "operator": "==",
+                            "value": "vgbild"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5de62117747cc",
+                "label": "Lizenzjahr BA Lichtenberg",
+                "name": "kl_lizenzjahr_ba_lichtenberg",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5de61e07747c9",
+                            "operator": "==",
+                            "value": "balgalerie"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5de61e07747c9",
+                            "operator": "==",
+                            "value": "bafotograf"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5de62152747cd",
+                "label": "Fotograf BA Lichtenberg",
+                "name": "kl_fotograf_ba_lichtenberg",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5de61e07747c9",
+                            "operator": "==",
+                            "value": "bafotograf"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "werke"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5e1f377198916",
+        "title": "Seiten",
+        "fields": [
+            {
+                "key": "field_5e1f377a0e3c6",
+                "label": "Seitenbeschreibung",
+                "name": "kl_seitenbeschreibung",
+                "type": "text",
+                "instructions": "Die Seitenbeschreibung taucht in den z.B. Google Ergebnissen auf, sollte nicht mehr als 160 Zeichen inkl. Leerzeichen haben. Sie ist ein wichtiger Bestandteil für die SEO Optimierung.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    }
+]

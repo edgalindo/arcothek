@@ -1,0 +1,116 @@
+--------------------------------------------------------
+Danke, dass Sie das Artothek Theme heruntergeladen haben
+--------------------------------------------------------
+
+Artothek ist ein Responsive WordPress-Theme für den Aufbau einer Kunstverleih Site.
+
+
+-------------------------------------------------------
+Copyright
+-------------------------------------------------------
+
+Veröffentlicht unter GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html)
+
+-------------------------------------------------------
+Demo
+-------------------------------------------------------
+
+Eine aktive Installation finden Sie unter https://www.kunstverleih-berlin-lichtenberg.de
+
+
+--------------------------------------------------------
+Installationsanleitung
+--------------------------------------------------------
+
+Die Einhaltung der Reihenfolge für die folgenden Schritte ist wichtig, um Fehlermeldungen zu vermeiden!
+
+
+1. Wordpress installieren und nach eigenen Wünschen konfigurieren. Getestet haben wir bis WordPress 5.3.2.
+
+2. Das notwendigen Plugin Advanced Custom Fields PRO installieren und aktivieren.
+
+Advanced Custom Fields PRO (kostenpflichtig)
+WordPress durch leistungsfähige, professionelle und zugleich intuitive Felder erweitern.
+https://www.advancedcustomfields.com/
+
+3. Vordefinierte Felder in Advanced Custom Fields PRO importieren: Individuelle Felder > Werkzeuge die "Advanced Custom Fields JSON-Datei: "acf-fields.json" importieren.
+
+4. Das Theme "artothek" in das Theme Verzeichnis hochladen und aktivieren.
+
+5. Gewünschte Seiten erstellen.
+Bei der Startseite das Seiten-Atribute Template "Bilder-Galerie Template" auswählen.
+Bei der Künstler-Index Seite das Seiten-Atribute Template "Künstler A-Z Template" auswählen.
+
+6. Mindestens jeweils einen Eintrag bei den Menüpunkten "Werke/Bilder" und "Künstler" erstellen.
+
+7. Das notwendigen Plugin Search & Filter Pro installieren.
+Search & Filter Pro (kostenpflichtig)
+Ermöglicht das Suchen und Filtern nach Kategorien, Tags, Taxonomien, benutzerdefinierten Feldern, Post-Meta, Post-Datumsangaben, Post-Typen und Autoren.
+https://searchandfilter.com/
+Plugin installieren und wie in der Plugin-Anleitung "Search & Filter Anleitung.pdf" beschrieben konfigurieren.
+
+8. Wenn gewünscht, die "Nice to have Plugins" jetzt ebenfalls installieren.
+
+
+
+Plugin Übersicht:
+
+
+A. Notwendige Plugins:
+
+Advanced Custom Fields PRO (kostenpflichtig) Version 5.8.7
+WordPress durch leistungsfähige, professionelle und zugleich intuitive Felder erweitern.
+https://www.advancedcustomfields.com/
+Plugin installieren und unter: Individuelle Felder > Werkzeuge die "Advanced Custom Fields JSON-Datei: acf-fields.json" importieren.
+
+
+Search & Filter Pro (kostenpflichtig) Version 2.5.0
+Ermöglicht das Suchen und Filtern nach Kategorien, Tags, Taxonomien, benutzerdefinierten Feldern, Post-Meta, Post-Datumsangaben, Post-Typen und Autoren.
+https://searchandfilter.com/
+Plugin installieren und wie in der Anleitung beschrieben konfigurieren.
+
+
+B. Nice to have Plugins:
+
+One Click Accessibility
+One Click Accessibility-Plugin, mit dem die Website leichter zugänglich gemacht wird.
+https://de.wordpress.org/plugins/pojo-accessibility/
+Plugin installieren und gewünschte Einstellungen vornehmen.
+
+
+Page Builder by SiteOrigin
+Ein responsiver Page-Builder, der per Drag-and-Drop zu bedienen ist und es einfach macht, Inhalte responsive anzuordnen und zu gestalten.
+Plugin installieren und gewünschte Einstellungen vornehmen.
+
+
+SiteOrigin Widgets Bundle
+Eine Sammlung von Widgets, für den Page Builder by SiteOrigin, die in einem Plugin zusammengefasst sind.
+https://de.wordpress.org/plugins/so-widgets-bundle/
+Plugin installieren und gewünschte Einstellungen vornehmen.
+
+
+Classic Editor
+Aktiviert den klassischen WordPress-Editor und die „old-style“-Bearbeiten-Ansicht für Beiträge bzw. Seiten. Unterstützt außerdem ältere Plugins, die diesen Bildschirm erweitern.
+https://de.wordpress.org/plugins/classic-editor/
+
+
+Prevent Content Theft Lite
+https://de.wordpress.org/plugins/disable-right-click/
+Das Plugin verhindert ein Rechtsklick-Kontextmenü, wodurch das Kopieren von Website-Inhalten und Quellcode in gewissem Maße vermieden wird.
+Plugin installieren.
+
+
+Beam me up Scotty
+Fügt der Site schnell und einfach eine Schaltfläche zum "Zurück nach oben" hinzu.
+https://de.wordpress.org/plugins/beam-me-up-scotty/
+Plugin installieren und gewünschte Einstellungen vornehmen.
+
+
+-------------------------------------------------------
+    Credits
+-------------------------------------------------------
+ 
+* [HTML5 Blank](http://html5blank.com) Licensed under the MIT License
+* Fonts by Google fonts http://www.google.com/fonts licensed under Apache License Version 2 (http://www.apache.org/licenses/LICENSE-2.0.html)
+* Font Awesome licensed under the MIT License http://fortawesome.github.io/Font-Awesome/
+* [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
