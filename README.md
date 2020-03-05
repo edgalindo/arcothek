@@ -134,12 +134,13 @@ Credits
 Auftraggeber: Bezirksamt Lichtenberg/Fachbereich Kunst und Kultur
 
 Design und Programmierung: büro perzborn - Agentur für Kommunikation, Webentwicklung, Design und Print
+Ferner ist zu beachten:
 
 * [HTML5 Blank](http://html5blank.com) Licensed under the MIT License
 * Fonts by Google fonts http://www.google.com/fonts licensed under Apache License Version 2 (http://www.apache.org/licenses/LICENSE-2.0.html)
 * Font Awesome licensed under the MIT License http://fortawesome.github.io/Font-Awesome/
 * [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
 
-Copyright
+License
 ------
 Veröffentlicht unter GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html)
