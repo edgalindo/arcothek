@@ -1,5 +1,5 @@
 # arcothek
-Artothek ist ein Responsive WordPress-Theme für den Aufbau einer Kunstverleih Site.
+arcothek ist ein Responsive WordPress-Theme für den Aufbau einer Kunstverleih-Website. Es ist entstanden im Zuge des Projekts "kulturBdigital - Digitale Entwicklung des Kulturbereichs": https://kultur-b-digital.de/ . Dieses Projekt der Technologiestiftung Berlin wird gefördert von der Senatsverwaltung für Kultur und Europa.
 
 Demo
 ------
