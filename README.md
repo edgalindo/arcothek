@@ -3,7 +3,7 @@ arcothek ist ein Responsive WordPress-Theme für den Aufbau einer Kunstverleih-W
 
 Demo
 ------
-Eine aktive Installation finden Sie unter https://www.kunstverleih-berlin-lichtenberg.de
+arcothek wird beispielhaft eingesetzt auf der Website des Kunstverleih Lichtenberg. Eine aktive Installation finden Sie unter: https://www.kunstverleih-berlin-lichtenberg.de/ 
 
 Installationsanleitung
 ------
