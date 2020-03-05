@@ -134,6 +134,7 @@ Credits
 Auftraggeber: Bezirksamt Lichtenberg/Fachbereich Kunst und Kultur
 
 Design und Programmierung: büro perzborn - Agentur für Kommunikation, Webentwicklung, Design und Print
+
 Ferner ist zu beachten:
 
 * [HTML5 Blank](http://html5blank.com) Licensed under the MIT License
