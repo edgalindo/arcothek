@@ -131,6 +131,10 @@ Bitte den Shortcode so wie er von der Search Form generiert wurde übernehmen.
 
 Credits
 ------
+Auftraggeber: Bezirksamt Lichtenberg/Fachbereich Kunst und Kultur
+
+Design und Programmierung: büro perzborn - Agentur für Kommunikation, Webentwicklung, Design und Print
+
 * [HTML5 Blank](http://html5blank.com) Licensed under the MIT License
 * Fonts by Google fonts http://www.google.com/fonts licensed under Apache License Version 2 (http://www.apache.org/licenses/LICENSE-2.0.html)
 * Font Awesome licensed under the MIT License http://fortawesome.github.io/Font-Awesome/
